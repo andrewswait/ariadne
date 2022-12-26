@@ -110,11 +110,7 @@ toml==0.10.2
     #   coverage
     #   pep517
 tomli==1.2.3
-    # via
-    #   black
-    #   mypy
-    #   pylint
-    #   pytest
+    # via pytest
 types-python-dateutil==2.8.15
     # via -r requirements-dev.in
 typing-extensions==4.1.1
@@ -125,7 +121,7 @@ wasmer==0.3.0
     # via fastdiff
 werkzeug==2.1.2
     # via -r requirements-dev.in
-wheel==0.36.2
+wheel==0.38.1
     # via pip-tools
 wrapt==1.11.2
     # via astroid
