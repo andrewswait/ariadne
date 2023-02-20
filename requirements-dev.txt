@@ -110,12 +110,8 @@ toml==0.10.2
     #   coverage
     #   pep517
 tomli==1.2.3
-    # via
-    #   black
-    #   mypy
-    #   pylint
-    #   pytest
-types-python-dateutil==2.8.15
+    # via pytest
+types-python-dateutil==2.8.19.7
     # via -r requirements-dev.in
 typing-extensions==4.1.1
     # via mypy
